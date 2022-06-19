@@ -132,9 +132,6 @@ body {
 }
 
 .footer_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 317px;
   height: 64px;
   background: #d5d4d8;
@@ -144,5 +141,15 @@ body {
 }
 
 .footer_inside {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
   border-radius: 0px 0px 10px 10px;
+  margin-top: 19.5px;
+  margin-bottom: 19.5px;
 }
+/* 
+.footer-inside .img {
+  width: 25px;
+  height: 25px;
+} */
